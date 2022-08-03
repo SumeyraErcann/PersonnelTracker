@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonnelTracker", "PersonnelTracker\PersonnelTracker.csproj", "{7BB4CA80-407C-4310-A14F-E21395664A5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{C60461B0-7DED-4007-83D3-827A78690A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{70B648C9-DE7A-4F51-B6C0-7DB408C49C0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BB4CA80-407C-4310-A14F-E21395664A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB4CA80-407C-4310-A14F-E21395664A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB4CA80-407C-4310-A14F-E21395664A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB4CA80-407C-4310-A14F-E21395664A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60461B0-7DED-4007-83D3-827A78690A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60461B0-7DED-4007-83D3-827A78690A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60461B0-7DED-4007-83D3-827A78690A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60461B0-7DED-4007-83D3-827A78690A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B648C9-DE7A-4F51-B6C0-7DB408C49C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B648C9-DE7A-4F51-B6C0-7DB408C49C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B648C9-DE7A-4F51-B6C0-7DB408C49C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B648C9-DE7A-4F51-B6C0-7DB408C49C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9832C3C-3A70-4A7D-B0C3-3D82D514528E}
+	EndGlobalSection
+EndGlobal
