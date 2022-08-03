@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7BB4CA80-407C-4310-A14F-E21395664A5E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PersonnelTracker</RootNamespace>
+    <AssemblyName>PersonnelTracker</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmDepartments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDepartments.Designer.cs">
+      <DependentUpon>FrmDepartments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDeptList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDeptList.Designer.cs">
+      <DependentUpon>FrmDeptList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJobInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJobInfo.Designer.cs">
+      <DependentUpon>FrmJobInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJobList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJobList.Designer.cs">
+      <DependentUpon>FrmJobList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPersonnelInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersonnelInfo.Designer.cs">
+      <DependentUpon>FrmPersonnelInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPersonnelList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersonnelList.Designer.cs">
+      <DependentUpon>FrmPersonnelList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPositionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPositionList.Designer.cs">
+      <DependentUpon>FrmPositionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPositions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPositions.Designer.cs">
+      <DependentUpon>FrmPositions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSalaryInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSalaryInfo.Designer.cs">
+      <DependentUpon>FrmSalaryInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSalaryList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSalaryList.Designer.cs">
+      <DependentUpon>FrmSalaryList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVacationInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVacationInfo.Designer.cs">
+      <DependentUpon>FrmVacationInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVacationList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVacationList.Designer.cs">
+      <DependentUpon>FrmVacationList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmDepartments.resx">
+      <DependentUpon>FrmDepartments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDeptList.resx">
+      <DependentUpon>FrmDeptList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJobInfo.resx">
+      <DependentUpon>FrmJobInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJobList.resx">
+      <DependentUpon>FrmJobList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPersonnelInfo.resx">
+      <DependentUpon>FrmPersonnelInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPersonnelList.resx">
+      <DependentUpon>FrmPersonnelList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPositionList.resx">
+      <DependentUpon>FrmPositionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPositions.resx">
+      <DependentUpon>FrmPositions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSalaryInfo.resx">
+      <DependentUpon>FrmSalaryInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSalaryList.resx">
+      <DependentUpon>FrmSalaryList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVacationInfo.resx">
+      <DependentUpon>FrmVacationInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVacationList.resx">
+      <DependentUpon>FrmVacationList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{c60461b0-7ded-4007-83d3-827a78690a8a}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{70b648c9-de7a-4f51-b6c0-7db408c49c0f}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
