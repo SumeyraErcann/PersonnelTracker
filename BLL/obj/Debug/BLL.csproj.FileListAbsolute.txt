@@ -1,0 +1,10 @@
+D:\c# dersleri\PersonnelTracker(Takip)\BLL\bin\Debug\BLL.dll
+D:\c# dersleri\PersonnelTracker(Takip)\BLL\bin\Debug\BLL.pdb
+D:\c# dersleri\PersonnelTracker(Takip)\BLL\bin\Debug\DAL.dll
+D:\c# dersleri\PersonnelTracker(Takip)\BLL\bin\Debug\DAL.pdb
+D:\c# dersleri\PersonnelTracker(Takip)\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\c# dersleri\PersonnelTracker(Takip)\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\c# dersleri\PersonnelTracker(Takip)\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\c# dersleri\PersonnelTracker(Takip)\BLL\obj\Debug\BLL.dll
+D:\c# dersleri\PersonnelTracker(Takip)\BLL\obj\Debug\BLL.pdb
+D:\c# dersleri\PersonnelTracker(Takip)\BLL\bin\Debug\DAL.dll.config
